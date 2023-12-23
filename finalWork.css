@@ -1,0 +1,50 @@
+*{ 
+	margin: 0 auto;
+	padding: 0 auto;
+}
+div{
+	padding-bottom: 100%;
+}
+body{
+	 background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+backdrop-filter: blur(10px);
+}
+.mainInfo{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.projects{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top:50px ;
+}
+#projectfold{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse
+
+
+}
+a{
+	background: linear-gradient(90deg, #e933ff, #ffb400, #ff3333, #334dff, #e933ff);
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textflow 5s linear infinite;
+  background-size: 	200%;
+  border: 3px solid darkred;
+}
+.main{
+font-size: 30px;
+
+}
